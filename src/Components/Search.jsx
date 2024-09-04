@@ -5,7 +5,7 @@ export const SearchComponent = ({ orientation }) => {
         <>
             <form className={`flex flex-${orientation} gap-5 w-full`} action="/search">
                 <Link to='/'>
-                    <h1 className="text-5xl text-center font-semibold text-white">Image Search</h1>
+                    <h1 className="sm:text-5xl text-2xl text-center font-semibold text-white">Image Search</h1>
                 </Link>
                 <div className="flex flex-1 flex-row sm:w-96 w-11/12 m-auto">
                     <input type="text" placeholder="Search for an image ..." 
